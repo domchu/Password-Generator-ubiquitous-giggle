@@ -8,5 +8,32 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="./app.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="page-container">
+      <h2>Password Generator</h2>
+      <div class="pw-container">
+        <div class="pw-header">
+          <div class="pw"></div>
+        </div>
+        <div class="pw-body">
+          <div class="form-control">
+            <label for="upper">Contain Uppercase Letters</label>
+            <input type="checkbox" id="upper" />
+          </div>
+          <div class="form-control">
+            <label for="lower">Contain lower Letters</label>
+            <input type="checkbox" id="lower" />
+          </div>
+          <div class="form-control">
+            <label for="number">Contain numbers</label>
+            <input type="checkbox" id="number" />
+          </div>
+          <div class="form-control">
+            <label for="symbol">Contain symbols</label>
+            <input type="checkbox" id="symbol" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
