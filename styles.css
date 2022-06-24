@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rebeccapurple;
+  font-family: poppins, lato;
+}
+/*# sourceMappingURL=styles.css.map */
