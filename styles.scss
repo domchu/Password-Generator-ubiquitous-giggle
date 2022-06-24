@@ -13,3 +13,54 @@ body {
   background-color: rebeccapurple;
   font-family: Poppins, lato;
 }
+.page-container {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 50vh;
+
+  h2 {
+    color: #fff;
+  }
+  .pw-container {
+    background-color: #192644;
+    color: #fff;
+    width: 400px;
+  }
+  .pw {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 2rem;
+    width: 100%;
+    background-color: rebeccapurple;
+  }
+  .pw button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.25rem;
+    font-weight: bold;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.2s ease transform 0.2s;
+    font-family: inherit;
+  }
+  .pw:hover button {
+    transform: translateX(0, -100%);
+    opacity: 1;
+  }
+  .pw-header {
+    padding: 1rem;
+    // background-color: rebeccapurple;
+  }
+  .pw-body {
+    padding: 1rem;
+  }
+  .form-control {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+  }
+}
