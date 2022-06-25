@@ -6,10 +6,12 @@ const lowerEl = document.getElementById("lower");
 const numberEl = document.getElementById("number");
 const symbolEl = document.getElementById("symbol");
 const generateEl = document.getElementById("generate");
+const checkedEl = document.querySelectorAll("checkbox");
+
 const upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowerLetters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789";
-const symbols = "!@#$%^&*()_+";
+const symbols = "!@#$%^&*()_+/*-+<>?|";
 
 // this function is to set all the function to output random uppercase, lowercase, numbers, symbols
 function getUppercase() {
@@ -34,6 +36,11 @@ function generatePassword() {
     password += x;
   }
   pwEl.innerHTML = password;
+}
+
+// fixing the undefined screen
+if (checkedEl.value == "") {
+  // return "check the checkbox";
 }
 
 // generate all the required
