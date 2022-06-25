@@ -82,4 +82,16 @@ body {
           justify-content: space-between;
   margin: 0.5rem;
 }
+
+.page-container .generate {
+  display: block;
+  color: rebeccapurple;
+  padding: 0.57rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+  font-weight: bold;
+  background-color: #ecb602;
+  width: 100%;
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=styles.css.map */
