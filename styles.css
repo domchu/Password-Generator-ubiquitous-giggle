@@ -10,6 +10,9 @@
 }
 
 body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: rebeccapurple;
   font-family: Poppins, lato;
 }
@@ -41,7 +44,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 100%;
   background-color: rebeccapurple;
 }
@@ -69,6 +72,10 @@ body {
   padding: 1rem;
 }
 
+.page-container .len {
+  cursor: pointer;
+}
+
 .page-container .pw-body {
   padding: 1rem;
 }
@@ -81,6 +88,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0.5rem;
+  cursor: pointer;
 }
 
 .page-container .generate {
@@ -93,5 +101,12 @@ body {
   background-color: #ecb602;
   width: 100%;
   margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.page-container .generate:hover {
+  background-color: rebeccapurple;
+  color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */

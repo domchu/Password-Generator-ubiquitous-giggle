@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 body {
+  //   background-image: url("images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: rebeccapurple;
   font-family: Poppins, lato;
 }
@@ -32,7 +36,7 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 100%;
     background-color: rebeccapurple;
   }
@@ -55,6 +59,9 @@ body {
     padding: 1rem;
     // background-color: rebeccapurple;
   }
+  .len {
+    cursor: pointer;
+  }
   .pw-body {
     padding: 1rem;
   }
@@ -62,6 +69,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0.5rem;
+    cursor: pointer;
   }
   .generate {
     display: block;
@@ -73,5 +81,11 @@ body {
     background-color: #ecb602;
     width: 100%;
     margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  .generate:hover {
+    background-color: rebeccapurple;
+    color: #fff;
   }
 }
